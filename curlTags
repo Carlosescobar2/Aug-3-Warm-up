@@ -1,0 +1,30 @@
+ curl -d '{ "name": "Darth Vader" }' \
+  -H "Content-Type: application/json" \
+  https://enlbqg7cr6b6a.x.pipedream.net/
+
+
+{"success":true}%                                                               (base) carlosescobar@MacBook-Pro-4 ~ % curl --help https://enlbqg7cr6b6a.x.pipedream.net/
+Usage: curl [options...] <url>
+     --abstract-unix-socket <path> Connect via abstract Unix domain socket
+     --alt-svc <file name> Enable alt-svc with this cache file
+     --anyauth       Pick any authentication method
+ -a, --append        Append to target file when uploading
+     --basic         Use HTTP Basic Authentication
+     --cacert <file> CA certificate to verify peer against
+     --capath <dir>  CA directory to verify peer against
+ -E, --cert <certificate[:password]> Client certificate file and password
+     --cert-status   Verify the status of the server certificate
+     --cert-type <type> Certificate file type (DER/PEM/ENG)
+     --ciphers <list of ciphers> SSL ciphers to use
+     --compressed    Request compressed response
+     --compressed-ssh Enable SSH compression
+ -K, --config <file> Read config from a file
+     --connect-timeout <seconds> Maximum time allowed for connection
+     --connect-to <HOST1:PORT1:HOST2:PORT2> Connect to host
+ -C, --continue-at <offset> Resumed transfer offset
+ -b, --cookie <data|filename> Send cookies from string/file
+ -c, --cookie-jar <filename> Write cookies to <filename> after operation
+     --create-dirs   Create necessary local directory hierarchy
+
+
+
